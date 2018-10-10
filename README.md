@@ -1,5 +1,5 @@
 # IX ACCOMPLISHMENT- React
-This prototype was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and modified for the Index Exchange - Accomplishment App. Create React App is a react project seed, created by facebook, that is preconfigured and includes many common tools used for common react apps that helps you quickly get started.
+This webapp was created with [Create React App](https://github.com/facebookincubator/create-react-app) and modified for the Index Exchange - Accomplishment App.
 
 ## Getting Started
 ### One Time Installation
