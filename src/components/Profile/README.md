@@ -1,0 +1,2 @@
+# Profile component
+This component shows the details on the user and all the accomplishments associated with the user. **Note** if the user does not exist and the user tries to enter an invalid user after "/profile/" in the url the page will break.

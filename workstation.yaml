@@ -1,0 +1,15 @@
+version: '2'
+services:
+  ix-accomplishments:
+    build:
+      context: '.'
+      dockerfile: './docker/Dockerfile'
+    working_dir: '/ix-accomplishments'
+    command: 'npm start'
+    volumes:
+      - './:/ix-accomplishments' #mount host directory into container directory
+      - '/ix-accomplishments/src/node_modules' #defaults to container directory
+    ports:
+      - '9001:9001'
+      - '9002:9002'
+    container_name: "ix-accomplishments-react"

@@ -1,0 +1,39 @@
+{
+  "name": "ix-accomplishments",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "foreman": "^2.0.0",
+    "history": "^4.7.2",
+    "marked": "^0.3.19",
+    "moment": "^2.22.1",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.16",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-google-login": "^3.2.1",
+    "react-notification-system": "^0.2.17",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "^1.1.4",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "// prestart": "pm2 start react-scripts start --name=app -- start",
+    "webdriver-ready": "for i in $(seq 10); do echo Waiting for webdriver...;sleep 2;  nc -z localhost 4444 && break; done",
+    "start": "nf start -p 9001",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
