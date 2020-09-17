@@ -1,5 +1,5 @@
 # IX ACCOMPLISHMENT- React
-This webapp was created with [Create React App](https://github.com/facebookincubator/create-react-app) and modified for the Index Exchange - Accomplishment App.
+This webapp was created for individuals to recognize each other for their accomplishes on a public forum.
 
 ## Getting Started
 ### One Time Installation
